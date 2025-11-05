@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
-import { he } from "@faker-js/faker";
 
 function Navbar() {
   const { user, loginWithRedirect,isLoading, isAuthenticated, logout } = useAuth0();
@@ -106,3 +105,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
