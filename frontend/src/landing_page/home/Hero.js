@@ -26,11 +26,7 @@ function Hero() {
         )}
       </h3>
       <div className="row text-center">
-        <img
-          sr6c="media/Images/homeHero.png"
-          alt="Hero-Image"
-          className="mb-4"
-        />
+        <img src="media/Images/HomeHero.png" alt="Admin Dashboard Insights" />
         <h1 className="mt-5">Invest In Everything</h1>
         <p>
           Online platform to invest in Stocks, drivaties, mutual funds and more.
@@ -50,3 +46,4 @@ function Hero() {
 }
 
 export default Hero;
+
