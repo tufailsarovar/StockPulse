@@ -8,7 +8,7 @@ const Holdings = () => {
   const [allHoldings, setAllHoldings] = useState([]);
 
   useEffect(() => {
-    axios.get("https://stockpulse-dashboard-ruddy.vercel.app").then((res) => {
+    axios.get("https://stockpulse-dashboard-ruddy.vercel.app/allHoldings").then((res) => {
       // console.log(res.data);
       setAllHoldings(res.data);
     });
@@ -109,5 +109,6 @@ const Holdings = () => {
 };
 
 export default Holdings;
+
 
 
