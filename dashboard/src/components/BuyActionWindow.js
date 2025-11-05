@@ -12,7 +12,7 @@ const BuyActionWindow = ({ uid }) => {
   const [stockPrice, setStockPrice] = useState(0.0);
 
   const handleBuyClick = () => {
-    axios.post("https://stockpulse-dashboard-ruddy.vercel.app", {
+    axios.post("https://stockpulse-dashboard-ruddy.vercel.app/newOrder", {
       name: uid,
       qty: stockQuantity,
       price: stockPrice,
