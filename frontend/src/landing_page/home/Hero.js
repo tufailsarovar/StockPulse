@@ -15,7 +15,7 @@ function Hero() {
       </h2>
       <h3>
         {isAuthenticated && (
-          <a className="text-decoration-none" href="http://localhost:3001">
+          <a className="text-decoration-none" href="https://stockpulse-dashboard-ruddy.vercel.app">
             <img
               style={{ width: "70px" }}
               src="media/Images/logo.png"
@@ -46,4 +46,5 @@ function Hero() {
 }
 
 export default Hero;
+
 
